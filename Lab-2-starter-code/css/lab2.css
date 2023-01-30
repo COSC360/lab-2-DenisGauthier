@@ -1,11 +1,13 @@
+
 header, footer{
     color: white;
     background-color: #312c32;
     margin: 0em 4em 0.5em 4em;
 }
 
-h1, h2, h3, nav, footer{
+h1, h2, h3, nav, footer, p{
     font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+    margin: 0em 4em 0.5em 4em;
 }
 
 h1{
@@ -21,12 +23,14 @@ h3{
 }
 nav{
     font-size: 1.125em;
+    
 }
 
 body{
     font-family: georgia, Cambria,"Times New Roman", serif;
     font-size: 100%;
     background-color: #98dafc;
+    margin: 0em 4em 0.5em 4em;
 }
 
 a:link{
@@ -39,4 +43,24 @@ a:visited{
 
 a:hover{
     background-color: #FFFFCC;
+}
+
+.byline{
+    font-style:italic;
+    color:#808080;
+    margin: 0em 4em 0.5em 4em;
+}
+
+figure{
+    border:.25em solid black;
+    padding:1em;
+    margin: 0em 4em 0.5em 4em;
+
+}
+
+.repeat{
+    background-image:url(../images/gray-gradient.png);
+    background-repeat: repeat-x;
+    text-size-adjust: 70%;
+    text-align: vertical;
 }
