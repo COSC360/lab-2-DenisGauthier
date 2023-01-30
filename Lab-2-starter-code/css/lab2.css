@@ -25,6 +25,9 @@ nav{
     font-size: 1.125em;
     
 }
+li{
+    display:inline;
+}
 
 body{
     font-family: georgia, Cambria,"Times New Roman", serif;
@@ -52,15 +55,20 @@ a:hover{
 }
 
 figure{
-    border:.25em solid black;
-    padding:1em;
+    border: 1px solid black;
+    padding:.25em;
     margin: 0em 4em 0.5em 4em;
+    display:inline-block;
 
 }
 
 .repeat{
     background-image:url(../images/gray-gradient.png);
     background-repeat: repeat-x;
-    text-size-adjust: 70%;
+    text-size-adjust: .70em;
     text-align: vertical;
+}
+.background{
+    margin: 0em 4em 0.5em 4em;
+    background-color:white;
 }
