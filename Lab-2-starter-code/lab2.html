@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="css/reset.css"/> 
+<link rel="stylesheet" href="css/lab2.css"/> 
 <head>
     <title>COSC 360 - Lab 1</title> 
-    <link rel="stylesheet" href="css/reset.css"/> 
-    <link rel="stylesheet" href="css/lab2.css"/> 
 </head>
 <body>
     <header>
@@ -11,7 +11,7 @@
         COSC 360
     </h1>
     <h2>
-       Lab 1 - HTML 
+       Lab 2 - CSS 
     </h2>
     <nav>
         <ul>
@@ -26,12 +26,12 @@
         <h3 style="font-weight:bold">Description</h3>
             <p class="byline"> Photo by Myriams-Fotos</p>
             <p>This photo of ice crystals on a branch. the image is from 
-                <a href="http://www.pixabay.com">pixabay</a> 
+                <a href="http://www.pixabay.com">Pixabay</a> 
                 and was taken with a Canon EOS 650D camera
             </p>
             <figure>
                 <a href="images/eiskristalle-1938842_640.jpg">
-                <img src="images/eiskristalle-1938842_640.jpg" alt="Zoomed in photo on ice crystals on a branch"></a>
+                <img class= imgLarge src="images/eiskristalle-1938842_640.jpg" alt="Zoomed in photo on ice crystals on a branch"></a>
                 <br>
             </figure>
             <figcaption class="byline">Ice crystals on a branch</figcaption>
@@ -60,19 +60,18 @@
     <div id="reviews">
         <h3>Reviews</h3>
         <div>
-        <p class="byline"> By Bob on <time datetime="2017-01-11">January 11, 2017</time></p>
-        <p> Those are some nice ice photos.</p>
-        <hr>
+        <p class="topline"> <span class="byline">By Bob on <time datetime="2017-01-11">January 11, 2017</time></span><br>
+            Those are some nice ice photos. 
+            <hr class="bottomline">
+        </p>
         </div>
         <div>
-            <p class="byline">
-                By Alice on <time datetime="2016-10-01">October 1, 2016</time>
-            </p>
-            <p>
+            <p class="topline">
+                <span class="byline">By Alice on <time datetime="2016-10-01">October 1, 2016</time></span>
+                <br>
                 Beautiful photos.
-            </p>
             <hr>
-            
+            </p>
         </div>
 
     </div>
